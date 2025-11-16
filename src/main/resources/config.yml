@@ -1,0 +1,20 @@
+# Whitelist: Blocks that will drop with silk touch (even if they normally wouldn't)
+# Blacklist: Blocks that will NOT drop with silk touch (even if they normally would)
+
+# Note: Use lowercase block names from Material enum
+# Example: BUDDING_AMETHYST -> budding_amethyst
+
+whitelist:
+  - budding_amethyst
+#  - spawner #  add this also to the nbt data list if you want the type of spawner to be saved
+  - suspicious_sand
+
+blacklist:
+  - suspicious_gravel
+
+use-nbt-data:
+  - spawner
+
+
+
+

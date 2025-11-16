@@ -1,0 +1,22 @@
+name: SilkTouchPlus
+version: '1.0'
+main: me.IfMasterPluSilk.silkTouchPlus.SilkTouchPlus
+api-version: '1.21'
+authors: [ Kanuunankuula (IF_Master) ]
+description: Silk touch control with NBT data preservation
+website: https://discord.gg/VG9GHjABAa
+folia-supported: true
+
+
+
+commands:
+  silktouchplus:
+    description: Reload the SilkTouchPlus configuration
+    usage: /silktouchplus reload
+    aliases: [stp, stplus]
+    permission: silktouchplus.reload
+
+permissions:
+  silktouchplus.reload:
+    description: Allows reloading the plugin configuration
+    default: op
